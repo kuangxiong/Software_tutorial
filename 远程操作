@@ -1,0 +1,5 @@
+1。首先双方电脑上必须都装上了 openssh server
+2.然后通过ifconfig 来得到对方电脑的网络ip
+3.将文件拷到对方电脑的语句为：
+scp helloworld.c kuangxiong@10.4.10.110
+(注意，kuangxiong为对方电脑的用户名， 10.4.10.110为对方的电脑的网络ip)
